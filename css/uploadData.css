@@ -1,0 +1,233 @@
+div,section,p{
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.center{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: url(../img/back2.png) 0 0;
+}
+
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+#inn_head{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#inn_head div{
+    position: absolute;
+}
+#inn_head .lineImg1{
+    width: 35%;
+    overflow: hidden;
+    top:0px;left: 120px;z-index: 2;
+} 
+#inn_head .lineImg2{
+    width: 35%;
+    overflow: hidden;
+    top: 0px;right:120px;z-index: 2;
+}
+#inn_head .type,#inn_head .seeUp,#inn_head .preview{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+#inn_head .type{
+    background: url(../img/b4.png) center 0 no-repeat;
+    top:0px;left: 10px;z-index: 3;
+}
+#inn_head .seeUp{
+    margin-left: -75px;
+    background: url(../img/b2.png) center 0 no-repeat;
+    top: 0px;left: 50%;z-index: 3;
+    color: #0b69e5;
+}
+#inn_head .preview{
+    background: url(../img/b3.png) center 0 no-repeat;
+    top: 0px;right: 10px;z-index: 3;
+}
+#check,#upload,#scan{
+    background: url(../img/b12.png) 0 0 repeat-x;
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    box-shadow:2px 0px 8px 0px #b7c5c9;
+}
+#check h3,#upload h3,#scan h3{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 60px;
+    background: url(../img/t36.png) 20px center no-repeat;
+    color: #003a70;
+}
+#check h3{
+    background: url(../img/t36.png) 20px center no-repeat;
+}
+#upload h3{
+    background: url(../img/t37.png) 20px center no-repeat;
+}
+#scan h3{
+    background: url(../img/b9.png) 20px center no-repeat;
+}
+#check{
+    height: 150px;   
+}
+#upload{
+    height: 185px;
+}
+#scan{
+    height: 185px;
+}
+.check_material{
+    width: 500px;
+    height: 100px;
+    margin-left: 50px;
+}
+.check_material a{
+    width: 200px;
+    height: 42px;
+    line-height: 42px;
+    text-indent: 20px;
+    color: #fff;
+    display: inline-block;
+    
+}
+.check_material a:first-child{
+    
+    background: url(../img/b6.png) 0px 0 no-repeat;
+}
+.check_material a:first-child+a{
+    margin-left: 30px;
+    background: url(../img/b5.png) 0px 0 no-repeat;
+}
+
+/* ---------------------------------上传营业执照------------------------- */
+#preview{
+    width:145px;
+    height:105px;
+    overflow:hidden;
+}
+#imghead {
+    width: 100%;
+    height: auto;
+    border: none;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}
+#ups{
+    width: 100px;
+    height: 20px;
+    background: #0b69e5;
+}
+#upload label{
+    display: block;
+    width: 145px;
+    height: 105px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+#IDcard{
+    overflow: hidden;
+}
+.scan{
+    width: 140px;
+    height: 80px;
+    padding: 10px 0;
+    margin-left: 70px;
+    line-height: 80px;
+    float: left;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+    background: url(../img/b8.png) center center no-repeat;
+}
+.scan:hover{
+    background: #f0f0f0 url(../img/b8.png) center center no-repeat;
+}
+.positive, .opposite{
+    float: left;
+    width: 140px;
+    height: 100px;
+    margin: 0 20px;
+    display: none;
+}
+.IDcard img{
+    width: 100%;
+    height: 100%;
+}
+#HBox{
+    display: none;
+    width: 300px;
+    height: 300px;
+    margin: -150px 0 0 -150px;
+    box-shadow:2px 0px 8px 0px #b7c5c9;
+    border-radius: 2px;
+    background: #fff;
+    position: fixed;top: 50%;left: 50%;z-index: 999;
+}
+#HBox img{
+    display: block;
+    margin: 50px auto 0;
+}
+#col{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position:fixed;top: 0;left: 0;z-index: 99;
+    background:rgba(0,0,0,0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);  
+}
+:root #col{
+    filter: none;
+}
+.agree .agreeCheck{
+    text-indent: 5px;
+    font-size: 14px;
+    color: #606266;
+}
+.agree .agreeCheck span{
+    color: #0b69e5;
+}
+.btnNet{
+    width: 400px;
+    height: 50px;
+    margin: 70px auto 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.btnNet a{
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+.btnNet .prev{
+    width: 100px;
+    color: #6b7882;
+    margin-right: 90px;
+}
+.btnNet .next{
+    width: 200px;
+    color: #fff;
+     border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    background: url(../img/t3.png) 0 0; 
+    behavior: url(../css/PIE.htc);
+}
+

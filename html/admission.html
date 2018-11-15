@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/admission.css">
+    <link rel="stylesheet" href="../css/headBottom.css">
+    <script src="../js/jquery-1.8.0.min.js"></script>
+    <!--[if IE]>
+        <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lte IE 9]>  
+     <script src="../js/jquery.placeholder.js"></script>  
+     <script>  
+        $(function(){  
+            $('input[placeholder]').placeholder();  
+        });  
+     </script>  
+    <![endif]--> 
+</head>
+<body>
+    <div id="box">
+        <nav>
+            <div class="nav_top">
+                <div class="logo">
+                    <a href="../html/index.html"></a>
+                </div>
+                <ul class="nav_title">
+                    <li><a href="../html/index.html">首页</a></li>
+                    <li><a href="../html/business.html">工商登记</a></li>
+                    <li><a href="../html/tax.html">税务财会</a></li>
+                    <li><a href="../html/engravedChapter.html">公安刻章</a></li>
+                    <li><a href="../html/BankAccount.html">银行开户</a></li>
+                    <li><a href="../html/agencyService.html">代办业务</a></li>
+                    <li><a href="../html/lawyersAffairs.html">律所服务</a></li>
+                    <li class="choiseTit"><a href="../html/admission.html">我要入驻</a></li>
+                    <li><a href="../html/PersonalCenter.html">更多</a></li>
+                </ul>
+                <div class="signIn">
+                    <span>注册</span>
+                    <span id="aaa">登录</span>
+                </div>
+            </div>
+        </nav>
+        <div class="back_head">
+            <div class="bannerTit">
+                <h1>我要入驻</h1>
+                <h4>I'M GOING TO BE IN</h4>
+            </div>
+        </div>
+        <div class="location">
+            <p>
+                当前位置：<a href="../html/index.html" class="locaAs">首页</a> &gt; <span style="color:#042b71;">我要入驻</span>
+            </p>
+        </div>
+        <section id="center">
+            <figcaption class="centerTitle">企业信息</figcaption>
+            <figure class="inner">
+                <div class="cenInner">
+                    <ul>
+                        <li>
+                            <span>机构名称</span>
+                            <input type="text" value="">
+                        </li>
+                        <li>
+                            <span>机构性质</span>
+                            <select name="" id="">
+                                <option value="">机构性质</option>
+                                <option value="">机构性质</option>
+                                <option value="">机构性质</option>
+                                <option value="">机构性质</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span>代表法人</span>
+                            <input type="text" value="">
+                        </li>
+                        <li>
+                            <span>联系人</span>
+                            <input type="text" value="">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span>联系人电话</span>
+                            <input type="text" value="">
+                        </li>
+                        <li>
+                            <span>注册地/区域</span>
+                            <select name="" id="">
+                                <option value="">注册地/区域</option>
+                                <option value="">注册地/区域</option>
+                                <option value="">注册地/区域</option>
+                                <option value="">注册地/区域</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span>营业执照</span>
+                            <div class="list" id="upload" onclick="$('#uploadImg').click();"><div class="listUp">上传</div></div>
+                            <input type="file" value="" id="uploadImg" style="display:none;">
+                        </li>
+                        <li class="address">
+                            <span>注册地址</span>
+                            <textarea placeholder="请输入注册地址……"></textarea> 
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span>营业范围</span>
+                            <textarea placeholder="请输入营业范围……" style="height:120px;"></textarea> 
+                        </li>
+                    </ul>
+                    <input type="button" value="提交" class="btn">        
+                </div>
+            </figure>
+            <figcaption class="centerTitle">入驻流程</figcaption>
+            <figure class="enter">
+                <span>入驻申请</span>
+                <span>平台审核</span>
+                <span>签订入驻协议</span>
+                <span>领取Ukey</span>
+            </figure>
+        </section>
+<!-- footer -->
+        <section id="bottom">
+            <div class="footer">
+                <div class="footer_main">
+                    <div class="footer_left">
+                        <div class="left_top">
+                            <div class="footer_title">
+                                <span>联系我们</span></br><span>CONTACT US</span>
+                            </div>
+                            <ul>
+                                <li>总部地址：河南自贸试验区郑州片区（郑东）金水东路49号</br>绿地原盛国际1号楼C座18层（地铁C出口）</li>
+                                <li>公司邮箱：service@hnszqt.com</li>
+                                <li>公司传真：0371-69176993</li>
+                                <li>办公时间：周一至周五上午：8:30—11:30下午：13:30—17:30</li>
+                            </ul>
+                        </div>
+                        <div class="footer_lx">
+                            <a href="../html/download.html">下载中心</a>
+                            <a href="../html/aboutUs.html">关于我们</a>
+                            <a href="../html/webStatement.html">网站声明</a>
+                            <a href="../html/privacy.html">隐私声明</a>
+                        </div>
+                    </div>
+                    <div class="footer_right">
+                        <ul>
+                            <li>公司总机：0371-86109777 0371-86109777</li>
+                            <li>投诉电话：0371-69176991</li>
+                            <li>公司网址：www.hnszqt.com</li>
+                        </ul>
+                        <div class="wxImg"><img src="../img/weixin.png" alt=""></div>
+                        <p>扫一扫关注公众号</p>
+                    </div>
+                </div>
+                <p class="footer_bot">
+                    <span>备案：豫ICP备18011154号</span>
+                    <span>Copyright © 2018 hnszqt.com</span>
+                </p>
+            </div>
+        </section>
+    </div>
+</body>
+<script type="text/javascript" src="../js/admission.js"></script>
+</html>
